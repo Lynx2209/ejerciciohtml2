@@ -1,0 +1,54 @@
+@charset "ISO-8859-1";
+body {
+    font-family: Arial, sans-serif;
+}
+
+header, nav, section, footer {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+header {
+    background-color: #e0f7fa;
+}
+
+nav {
+    background-color: #ffcc80;
+}
+
+section {
+    background-color: #ffe0b2;
+}
+
+footer {
+    background-color: #b0bec5;
+    text-align: center;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+header img {
+    width: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+section h2, section h3 {
+    margin-top: 0;
+}
